@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    Hi,
+
+    New Contact form submitted by: {{ contact_name }}({{ contact_email }})
+
+    Contact message: {{ contact_message|safe|striptags }}
+
+    Thanks
+
+</body>
+</html>
